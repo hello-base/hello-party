@@ -1,0 +1,32 @@
+html { background: #fa9e4b url('images/2010_bkg_html.png') repeat-x; height: 100% }
+body { background: url('images/2010_bkg_body.png') no-repeat 50% 0 ; height: 100%; padding-top: 40px; }
+
+
+.message {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid #fcc684;
+  color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 8px 10px;
+  text-align: center;
+  width: 958px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+
+.postcard { background: url('images/2010_bkg_postcard.png') no-repeat 50% 0; height: 650px; margin: 0 auto; }
+.postcard h1, .postcard p { text-indent: -9999px; }
+
+
+.brought { text-align: center; margin: -40px auto 0; }
+.brought strong { background: url('images/2010_bkg_brought.png') no-repeat 50% 0; display: block; margin: 30px 0 10px; text-indent: -9999px; }
+.brought a { display: inline-block; text-indent: -9999px; vertical-align: middle; }
+.brought .helloparty { background: url('images/2010_bkg_helloparty.png') no-repeat 0 0; height: 51px; width: 182px; }
+.brought .helloparty:hover { background-position: 0 -51px; }
+.brought .helloranking { background: url('images/2010_bkg_helloranking.png') no-repeat 0 0; height: 43px; width: 196px; }
+.brought .helloranking:hover { background-position: 0 -43px; }
+.brought .amp { background: url('images/2010_bkg_amp.png') no-repeat 50% 0; display: inline-block; height: 50px; text-indent: -9999px; width: 60px; vertical-align: middle; }
