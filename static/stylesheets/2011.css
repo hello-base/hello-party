@@ -25,6 +25,7 @@ p {
     font-size: 54px;
     line-height: 42px;
     font-weight: bold;
+    margin: 10px 0;
     padding: 10px 0 0; }
 p + p {
     border-top: 1px solid #eee;
