@@ -1,6 +1,6 @@
 html, body { -webkit-font-smoothing: antialiased; }
 body { font-family: "Helvetica Neue", Helvetica, Liberation Sans, Arial, sans-serif; }
-strong { font-weight: bold; }
+strong { font-weight: 700; }
 
 
 /**/
@@ -40,6 +40,7 @@ body > header ul small {
     color: #0076a3;
     font-size: 24px;
     font-style: italic;
+    font-weight: 200;
     margin: 24px 0 12px;
 }
 .content p {
