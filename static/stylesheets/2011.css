@@ -1,0 +1,100 @@
+html, body { -webkit-font-smoothing: antialiased; }
+body { font-family: "Helvetica Neue", Helvetica, Liberation Sans, Arial, sans-serif; }
+strong { font-weight: bold; }
+
+
+/**/
+
+body > header {
+    background: #006a93;
+    color: #fff; }
+body > header div {
+    height: 396px;
+    margin: 0 auto;
+    width: 984px;
+    position: relative;
+}
+body > header ul {
+    position: absolute;
+    top: 0;
+}
+body > header ul li {
+    float: left;
+    margin-right: 48px;
+}
+body > header ul small {
+    font-size: 12px;
+    display: block;
+}
+
+
+/**/
+
+.content {
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 24px;
+    width: 984px;
+}
+.content h1 {
+    color: #0076a3;
+    font-size: 24px;
+    font-style: italic;
+    margin: 24px 0 12px;
+}
+.content p {
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 24px;
+}
+.content section {
+    float: left;
+    margin: 0 24px;
+    width: 468px;
+}
+.content aside { 
+    margin: 0 24px;
+}
+
+.map {
+    background: url('../images/2011_bkg_map.png') no-repeat 50% 0;
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+
+
+/**/
+
+.follow {
+    background: #005b80;
+    color: #fff;
+}
+.follow p {
+    margin: 0 auto;
+    padding: 12px 24px;
+    width: 936px;
+}
+
+
+/**/
+
+.clearfix:before,
+.clearfix:after {
+	content: ' ';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix:after {
+	clear: both;
+}
+
+/*
+	The following zoom:1 rule is specifically for IE6 + IE7.
+	Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix {
+	zoom: 1;
+}
