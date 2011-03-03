@@ -47,9 +47,10 @@ body > header ul {
 }
 body > header ul li {
     float: left;
-    font-family: "Hand of Sean";
+    font-family: "HandOfSeanRegular";
     font-size: 14px;
     margin-right: 48px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
 body > header ul small {
     color: rgba(255, 255, 255, 0.5);
@@ -293,6 +294,20 @@ footer > div {
 
 .clearfix {
 	zoom: 1;
+}
+
+
+/**/
+
+@font-face {
+    font-family: 'HandOfSeanRegular';
+    src: url('../fonts/handsean-webfont.eot');
+    src: url('../fonts/handsean-webfont.eot?iefix') format('eot'),
+         url('../fonts/handsean-webfont.woff') format('woff'),
+         url('../fonts/handsean-webfont.ttf') format('truetype'),
+         url('../fonts/handsean-webfont.svg#webfontV6q8jOTr') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
