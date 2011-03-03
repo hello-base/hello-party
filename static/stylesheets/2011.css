@@ -1,7 +1,11 @@
 html, body { -webkit-font-smoothing: antialiased; }
 body { font-family: "Helvetica Neue", Helvetica, Liberation Sans, Arial, sans-serif; }
 
-a { text-decoration: none; }
+a { color: #25afec; text-decoration: none; }
+em { font-style: italic; }
+ol { 
+    list-style-type: decimal;
+    padding-left: 44px; }
 strong { font-weight: 700; }
 
 
@@ -66,13 +70,23 @@ body > header ul small {
     width: 984px;
 }
 .content h1 {
+    background-repeat: no-repeat;
     color: #0076a3;
     font-size: 24px;
     font-style: italic;
     font-weight: 200;
     margin: 24px 0 12px;
+    text-indent: -9999px;
 }
-.content p {
+.introduction h1 { background-image: url('../images/2011_bkg_h1_aparty.png'); }
+.rsvp h1 { background-image: url('../images/2011_bkg_h1_awesome.png'); }
+.contest h1 { background-image: url('../images/2011_bkg_h1_whyyes.png'); }
+.map aside h1 { background-image: url('../images/2011_bkg_h1_thelocation.png'); width: 400px; }
+.faq h1 { background-image: url('../images/2011_bkg_h1_faqs.png'); }
+.faq aside h1 { background-image: url('../images/2011_bkg_h1_donations.png'); }
+.content p, 
+.content dd,
+.content ol {
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 24px;
 }
@@ -185,10 +199,74 @@ body > header ul small {
 .follow {
     background: #005b80;
     color: #fff;
+    margin-bottom: 12px;
 }
-.follow p {
+.follow div {
     margin: 0 auto;
     padding: 12px 24px;
+    width: 936px;
+}
+.follow p {
+    background: url('../images/2011_bkg_h1_stay.png') no-repeat 0;
+    float: left;
+    margin: 0;
+    padding: 11px 0 11px;
+    text-indent: -9999px;
+    width: 620px;
+}
+.follow a {
+    background-color: #fff;
+    background-image: url('../images/bkg_logo_twitterbird.png');
+    background-position: 12px 50%;
+    background-repeat: no-repeat;
+    color: #005b80;
+    display: block;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 18px 12px 48px;
+    -webkit-border-radius: 24px;
+}
+.follow a span {
+    font-weight: normal;
+}
+
+
+/**/
+
+.faq > section {
+    width: 648px;
+}
+.faq dt {
+    font-weight: bold;
+    color: #7fadbf;
+}
+.faq dd {
+    font-size: 12px;
+}
+.faq aside {
+    float: left;
+    font-size: 12px;
+    width: 264px;
+    margin: 0;
+}
+.faq input[type="image"] {
+    margin: 0 auto 14px;
+}
+
+/**/
+
+footer {
+    background: #005b80;
+    clear: both;
+    margin-top: 24px;
+    padding: 12px;
+}
+footer > div {
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0 auto;
     width: 936px;
 }
 
@@ -216,3 +294,5 @@ body > header ul small {
 .clearfix {
 	zoom: 1;
 }
+
+
