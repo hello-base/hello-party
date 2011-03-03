@@ -9,7 +9,20 @@ ol {
 strong { font-weight: 700; }
 
 
-/**/
+/* @font-face */
+
+@font-face {
+    font-family: 'HandOfSeanRegular';
+    src: url('../fonts/handsean-webfont.eot');
+    src: url('../fonts/handsean-webfont.eot?iefix') format('eot'),
+         url('../fonts/handsean-webfont.woff') format('woff'),
+         url('../fonts/handsean-webfont.ttf') format('truetype'),
+         url('../fonts/handsean-webfont.svg#webfontV6q8jOTr') format('svg');
+    font-weight: normal;
+    font-style: normal; }
+
+
+/* Header */
 
 body > header {
     background: #006a93 url('../images/2011_bkg_header.png') repeat-x 50% 0;
@@ -19,8 +32,7 @@ body > header div {
     height: 396px;
     margin: 0 auto;
     width: 984px;
-    position: relative;
-}
+    position: relative; }
 body > header h1 {
     background: url('../images/2011_bkg_header_h1.png');
     bottom: 0;
@@ -28,48 +40,42 @@ body > header h1 {
     margin: 0 24px;
     position: absolute;
     text-indent: -9999px;
-    width: 960px;
-}
+    width: 960px; }
 body > header p a {
     background: url('../images/2011_bkg_presentedby.png');
     display: block;
-    position: absolute;
-    top: 354px;
-    left: 16px;
-    text-indent: -9999px;
-    width: 218px;
     height: 27px;
-}
-body > header ul {
+    left: 16px;
     position: absolute;
-    top: 24px;
+    text-indent: -9999px;
+    top: 354px;
+    width: 218px; }
+body > header ul {
     padding: 0 24px;
-}
+    position: absolute;
+    top: 24px; }
 body > header ul li {
     float: left;
     font-family: "HandOfSeanRegular";
     font-size: 14px;
     margin-right: 48px;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
-}
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); }
 body > header ul small {
     color: rgba(255, 255, 255, 0.5);
     display: block;
     font-family: "Helvetica Neue", Helvetica, Liberation Sans, Arial, sans-serif; 
     font-size: 10px;
     font-weight: 700;
-    margin-bottom: 3px;
-}
+    margin-bottom: 3px; }
 
 
-/**/
+/* Content */
 
 .content {
     margin: 0 auto;
     font-size: 14px;
     line-height: 24px;
-    width: 984px;
-}
+    width: 984px; }
 .content h1 {
     background-repeat: no-repeat;
     color: #0076a3;
@@ -77,35 +83,28 @@ body > header ul small {
     font-style: italic;
     font-weight: 200;
     margin: 24px 0 12px;
-    text-indent: -9999px;
-}
+    text-indent: -9999px; }
 .introduction h1 { background-image: url('../images/2011_bkg_h1_aparty.png'); }
 .rsvp h1 { background-image: url('../images/2011_bkg_h1_awesome.png'); }
 .contest h1 { background-image: url('../images/2011_bkg_h1_whyyes.png'); }
 .map aside h1 { background-image: url('../images/2011_bkg_h1_thelocation.png'); width: 400px; }
 .faq h1 { background-image: url('../images/2011_bkg_h1_faqs.png'); }
 .faq aside h1 { background-image: url('../images/2011_bkg_h1_donations.png'); }
-.content p, 
-.content dd,
-.content ol {
+.content p, .content dd, .content ol {
     color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 24px;
-}
+    margin-bottom: 24px; }
 .content section {
     float: left;
     margin: 0 24px;
-    width: 468px;
-}
+    width: 468px; }
 .content aside { 
     float: left;
     margin: 0 24px;
-    position: relative;
-}
+    position: relative; }
 .rsvp p {
     float: left;
     margin-bottom: 0;
-    width: 264px;
-}
+    width: 264px; }
 .button a {
     background-color: #990f0f; 
     background-image: url('../images/2011_bkg_grunge.png'), url('../images/2011_logo_wufoo.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0, #B02121), color-stop(0.5, #7A0808));
@@ -126,29 +125,23 @@ body > header ul small {
     -moz-box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.5), inset 0 0 0 2px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.25);
     -webkit-border-radius: 4px;
     -webkit-box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.5), inset 0 0 0 2px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.25);
-    -webkit-transform: all 250ms ease;
-}
-.button a strong {
-    display: block;
-}
+    -webkit-transform: all 250ms ease; }
+.button a strong { display: block; }
 .button a:hover {
     background-image: url('../images/2011_bkg_grunge.png'), url('../images/2011_logo_wufoo.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0, #c52626), color-stop(0.5, #990909));
     background-image: url('../images/2011_bkg_grunge.png'), url('../images/2011_logo_wufoo.png'), -moz-gradient(center top, #c52626 0%, #990909 50%);
-    background-position: 0 0, 50% 12px, 0 0;    
-}
+    background-position: 0 0, 50% 12px, 0 0; }
 .button a:active {
     background-image: url('../images/2011_bkg_grunge.png'), url('../images/2011_logo_wufoo.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0, #7A0808), color-stop(0.5, #B02121));
     background-image: url('../images/2011_bkg_grunge.png'), url('../images/2011_logo_wufoo.png'), -moz-gradient(center top, #7A0808 0%, #B02121 50%);
     background-position: 0 0, 50% 12px, 0 0;    
     -moz-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.25), inset 0 0 0 2px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.25);
-    -webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.25), inset 0 0 0 2px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.25);
-}
+    -webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.25), inset 0 0 0 2px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.25); }
 
 .map {
     background: url('../images/2011_bkg_map.png') no-repeat 50% 0;
     padding-top: 12px;
-    padding-bottom: 24px;
-}
+    padding-bottom: 24px; }
 .inset {
     background: url('../images/2011_bkg_map_inset.png');
     height: 360px;
@@ -158,63 +151,51 @@ body > header ul small {
     -moz-border-radius: 6px;
     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
     -webkit-border-radius: 6px;
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
-}
-.inset ul {
-    
-}
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); }
 .inset li {
     color: rgba(0, 0, 0, 0.25);
     font-size: 12px;
     position: absolute;
-    width: 152px;
-}
+    width: 152px; }
 .inset li:first-child {
     background: url('../images/2011_bkg_location_placeholder_top.png') no-repeat 0 0;
     height: 108px;
     padding: 18px 18px 0 82px;
     right: 18px;
-    top: 18px;
-}
+    top: 18px; }
 .inset li:last-child {
     background: url('../images/2011_bkg_location_placeholder_bottom.png') no-repeat 0 100%;
     bottom: 18px;
     left: 18px;
     padding: 36px 36px 18px 70px;
-    height: 58px;
-}
+    height: 58px; }
 .inset img {
     position: absolute;
-    left: 0;
-}
+    left: 0; }
 .inset strong {
     color: rgba(0, 0, 0, 0.5);
     font-size: 14px;
     line-height: normal;
-    display: block;
-}
+    display: block; }
 
 
-/**/
+/* Follow */
 
 .follow {
     background: #005b80;
     color: #fff;
-    margin-bottom: 12px;
-}
+    margin-bottom: 12px; }
 .follow div {
     margin: 0 auto;
     padding: 12px 24px;
-    width: 936px;
-}
+    width: 936px; }
 .follow p {
     background: url('../images/2011_bkg_h1_stay.png') no-repeat 0;
     float: left;
     margin: 0;
     padding: 11px 0 11px;
     text-indent: -9999px;
-    width: 620px;
-}
+    width: 620px; }
 .follow a {
     background-color: #fff;
     background-image: url('../images/bkg_logo_twitterbird.png');
@@ -226,88 +207,51 @@ body > header ul small {
     font-size: 14px;
     font-weight: bold;
     padding: 12px 18px 12px 48px;
-    -webkit-border-radius: 24px;
-}
-.follow a span {
-    font-weight: normal;
-}
+    -webkit-border-radius: 24px; }
+.follow a span { font-weight: normal; }
 
 
-/**/
+/* FAQs */
 
-.faq > section {
-    width: 648px;
-}
+.faq > section { width: 648px; }
 .faq dt {
-    font-weight: bold;
-    color: #7fadbf;
-}
-.faq dd {
-    font-size: 12px;
-}
+    color: #7fadbf; 
+    font-weight: bold; }
+.faq dd { font-size: 12px; }
 .faq aside {
     float: left;
     font-size: 12px;
-    width: 264px;
     margin: 0;
-}
-.faq input[type="image"] {
-    margin: 0 auto 14px;
-}
+    width: 264px; }
+.faq input[type="image"] { margin: 0 auto 14px; }
 
-/**/
+
+/* Footer */
 
 footer {
     background: #005b80;
     clear: both;
     margin-top: 24px;
-    padding: 12px;
-}
+    padding: 12px; }
 footer > div {
     color: #fff;
     font-size: 11px;
     font-weight: bold;
     margin: 0 auto;
-    width: 936px;
-}
+    width: 936px; }
 
 
-/**/
+/* Clearfix */
 
 .clearfix:before,
 .clearfix:after {
 	content: ' ';
 	display: block;
+	height: 0;
 	overflow: hidden;
 	visibility: hidden;
-	width: 0;
-	height: 0;
-}
-.clearfix:after {
-	clear: both;
-}
-
-/*
-	The following zoom:1 rule is specifically for IE6 + IE7.
-	Move to separate stylesheet if invalid CSS is a problem.
-*/
-
-.clearfix {
-	zoom: 1;
-}
-
-
-/**/
-
-@font-face {
-    font-family: 'HandOfSeanRegular';
-    src: url('../fonts/handsean-webfont.eot');
-    src: url('../fonts/handsean-webfont.eot?iefix') format('eot'),
-         url('../fonts/handsean-webfont.woff') format('woff'),
-         url('../fonts/handsean-webfont.ttf') format('truetype'),
-         url('../fonts/handsean-webfont.svg#webfontV6q8jOTr') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+	width: 0; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
 
 
