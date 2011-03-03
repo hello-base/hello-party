@@ -108,7 +108,7 @@ body > header ul small {
 .button a {
     background-color: #990f0f; 
     background-image: url('../images/2011_bkg_grunge.png'), url('../images/2011_logo_wufoo.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0, #B02121), color-stop(0.5, #7A0808));
-    background-image: url('../images/2011_bkg_grunge.png'), url('../images/2011_logo_wufoo.png'), -moz-gradient(center top, #B02121 0%, #7A0808 50%);
+    background-image: url('../images/2011_bkg_grunge.png'), url('../images/2011_logo_wufoo.png'), -moz-linear-gradient(center top, #B02121 0%, #7A0808 50%);
     background-position: 0 0, 50% 12px, 0 0;
     background-repeat: no-repeat;
     color: #fff;
@@ -129,11 +129,11 @@ body > header ul small {
 .button a strong { display: block; }
 .button a:hover {
     background-image: url('../images/2011_bkg_grunge.png'), url('../images/2011_logo_wufoo.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0, #c52626), color-stop(0.5, #990909));
-    background-image: url('../images/2011_bkg_grunge.png'), url('../images/2011_logo_wufoo.png'), -moz-gradient(center top, #c52626 0%, #990909 50%);
+    background-image: url('../images/2011_bkg_grunge.png'), url('../images/2011_logo_wufoo.png'), -moz-linear-gradient(center top, #c52626 0%, #990909 50%);
     background-position: 0 0, 50% 12px, 0 0; }
 .button a:active {
     background-image: url('../images/2011_bkg_grunge.png'), url('../images/2011_logo_wufoo.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0, #7A0808), color-stop(0.5, #B02121));
-    background-image: url('../images/2011_bkg_grunge.png'), url('../images/2011_logo_wufoo.png'), -moz-gradient(center top, #7A0808 0%, #B02121 50%);
+    background-image: url('../images/2011_bkg_grunge.png'), url('../images/2011_logo_wufoo.png'), -moz-linear-gradient(center top, #7A0808 0%, #B02121 50%);
     background-position: 0 0, 50% 12px, 0 0;    
     -moz-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.25), inset 0 0 0 2px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.25);
     -webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.25), inset 0 0 0 2px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.25); }
@@ -207,6 +207,7 @@ body > header ul small {
     font-size: 14px;
     font-weight: bold;
     padding: 12px 18px 12px 48px;
+    -moz-border-radius: 24px;
     -webkit-border-radius: 24px; }
 .follow a span { font-weight: normal; }
 
