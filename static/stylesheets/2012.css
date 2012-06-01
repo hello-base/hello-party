@@ -1,0 +1,39 @@
+html, body { -webkit-font-smoothing: antialiased; }
+body { font-family: "Helvetica Neue", Helvetica, Liberation Sans, Arial, sans-serif; }
+
+a { color: #25afec; text-decoration: none; }
+em { font-style: italic; }
+ol {
+    list-style-type: decimal;
+    padding-left: 44px; }
+strong { font-weight: 700; }
+
+
+html { overflow-y: scroll; }
+body {
+    background-color: #3c3b3c;
+    color: white; }
+body:before {
+    background-color: #76b96f;
+    content: ' ';
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    z-index: -5; }
+
+
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+    width: 986px; height: 100%;
+}
+
+aside {
+
+    position: absolute;
+    left: 0; top: 0;
+}
+section {
+
+    margin-left: 50%;
+}
