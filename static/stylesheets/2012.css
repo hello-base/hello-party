@@ -1,3 +1,7 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
 html, body { -webkit-font-smoothing: antialiased; }
 body { font-family: "Helvetica Neue", Helvetica, Liberation Sans, Arial, sans-serif; }
 
@@ -12,7 +16,8 @@ strong { font-weight: 700; }
 html { overflow-y: scroll; }
 body {
     background-color: #3c3b3c;
-    color: white; }
+    color: white;
+    font-family: 'proxima-nova-alt-1', 'proxima-nova-alt-2'; }
 body:before {
     background-color: #76b96f;
     content: ' ';
@@ -28,12 +33,20 @@ body:before {
     width: 986px; height: 100%;
 }
 
-aside {
 
+aside {
     position: absolute;
     left: 0; top: 0;
+    width: 50%;
+
+    padding-top: 96px;
+    padding-right: 84px;
 }
+aside h1 { font-size: 48px; }
+
+
 section {
 
     margin-left: 50%;
+    padding-left: 36px;
 }
