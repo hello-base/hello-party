@@ -5,7 +5,9 @@
 html, body { -webkit-font-smoothing: antialiased; }
 body { font-family: "Helvetica Neue", Helvetica, Liberation Sans, Arial, sans-serif; }
 
-a { color: #25afec; text-decoration: none; }
+a { color: #aed9a9;
+    font-weight: bold;
+    text-decoration: none; }
 em { font-style: italic; }
 ol {
     list-style-type: decimal;
@@ -17,7 +19,7 @@ html { overflow-y: scroll; }
 body {
     background-color: #3c3b3c;
     color: white;
-    font-family: 'proxima-nova-alt-1', 'proxima-nova-alt-2'; }
+    font-family: 'Proxima Nova', 'proxima-nova-alt-1', 'proxima-nova-alt-2'; }
 body:before {
     background-color: #76b96f;
     content: ' ';
@@ -30,8 +32,7 @@ body:before {
 .wrapper {
     margin: 0 auto;
     position: relative;
-    width: 986px; height: 100%;
-}
+    width: 986px; height: 100%; }
 
 
 aside {
@@ -39,14 +40,58 @@ aside {
     left: 0; top: 0;
     width: 50%;
 
-    padding-top: 96px;
-    padding-right: 84px;
-}
-aside h1 { font-size: 48px; }
-
+    padding-top: 96px; padding-right: 84px; }
+aside h1 {
+    font-size: 48px;
+    letter-spacing: -1px;
+    text-transform: uppercase; }
 
 section {
-
+    position: relative;
     margin-left: 50%;
-    padding-left: 36px;
+    padding-left: 36px; padding-top: 96px; }
+section h1 {
+    background: url('../images/2012_logo.png') no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+
+    margin-bottom: 24px;
+    width: 312px; height: 80px;
+    overflow: hidden;
 }
+section p {
+    line-height: 24px;
+    margin-bottom: 24px; }
+.presented-by {
+    font-size: 12px;
+    font-weight: 700;
+
+    position: absolute;
+    text-transform: uppercase;
+    top: 48px; }
+.location {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-width: 1px 0;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin: 24px -12px;
+    padding: 24px 12px; }
+.facebook {
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 4px;
+    color: white;
+
+    display: block;
+    margin: 12px -12px 12px;
+    padding: 12px; }
+.animenext {
+    background: url('../images/2012_animenext.png') no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+
+    margin-bottom: 6px;
+    width: 362px; height: 38px;
+    overflow: hidden; }
