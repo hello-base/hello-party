@@ -19,7 +19,7 @@ html { overflow-y: scroll; }
 body {
     background-color: #3c3b3c;
     color: white;
-    font-family: 'Proxima Nova', 'proxima-nova-alt-1', 'proxima-nova-alt-2'; }
+    font-family: 'proxima-nova-alt-1', 'proxima-nova-alt-2', 'Proxima Nova'; }
 body:before {
     background-color: #76b96f;
     content: ' ';
