@@ -22,7 +22,7 @@ body {
     color: white;
     font-family: 'proxima-nova-alt-1', 'proxima-nova-alt-2', 'Proxima Nova'; }
 body:before {
-    background-color: #76b96f;
+    background: #76b96f url('../images/2012_bkg.png') left top no-repeat;
     content: ' ';
     position: fixed;
     width: 50%;
