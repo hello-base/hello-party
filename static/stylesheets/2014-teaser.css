@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    background: #111111 url('/static/images/2014_teaser.png') center center no-repeat;
+    font-family: "Helvetica Neue", Helvetica, Liberation Sans, Arial, sans-serif;
+    height: 100% }
+a { text-decoration: none; }
+
+.more-info {
+    position: absolute;
+    bottom: 26px;
+    left: 0;
+    right: 0;
+
+    color: #666;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+}
