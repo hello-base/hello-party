@@ -3,7 +3,7 @@ html, body {
     -webkit-font-smoothing: antialiased;
 }
 body {
-    background: #111111 url('/static/images/2014_teaser.png') center center no-repeat;
+    background: #101010 url('/static/images/2014_teaser.png') center center no-repeat;
     font-family: "Helvetica Neue", Helvetica, Liberation Sans, Arial, sans-serif; }
 a {
     color: #f473b2;
@@ -20,5 +20,10 @@ a {
     color: #666;
     font-weight: bold;
     font-size: 13px;
+    line-height: 1.2;
     text-align: center;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+    body { background-size: 100%; }
 }
