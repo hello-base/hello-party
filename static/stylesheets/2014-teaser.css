@@ -12,10 +12,12 @@ a {
 
 .more-info {
     position: absolute;
-    bottom: 26px;
+    bottom: 20px;
     left: 0;
     right: 0;
+    padding: 6px;
 
+    background: #111;
     color: #666;
     font-weight: bold;
     font-size: 13px;
