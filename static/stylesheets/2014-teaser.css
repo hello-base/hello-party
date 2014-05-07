@@ -4,8 +4,7 @@ html, body {
 }
 body {
     background: #111111 url('/static/images/2014_teaser.png') center center no-repeat;
-    font-family: "Helvetica Neue", Helvetica, Liberation Sans, Arial, sans-serif;
-    height: 100% }
+    font-family: "Helvetica Neue", Helvetica, Liberation Sans, Arial, sans-serif; }
 a {
     color: #f473b2;
     text-decoration: none; }
