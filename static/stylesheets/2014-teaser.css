@@ -6,7 +6,9 @@ body {
     background: #111111 url('/static/images/2014_teaser.png') center center no-repeat;
     font-family: "Helvetica Neue", Helvetica, Liberation Sans, Arial, sans-serif;
     height: 100% }
-a { text-decoration: none; }
+a {
+    color: #f473b2;
+    text-decoration: none; }
 
 .more-info {
     position: absolute;
