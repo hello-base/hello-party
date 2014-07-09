@@ -1,26 +1,73 @@
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 html, body {
     height: 100%;
     -webkit-font-smoothing: antialiased;
 }
 body {
-    background: #101010 url('/static/images/2014_teaser.png') center center no-repeat;
+    background: #101010;
+    color: #fff;
     font-family: "Helvetica Neue", Helvetica, Liberation Sans, Arial, sans-serif; }
 a {
     color: #f473b2;
     text-decoration: none; }
 
-.more-info {
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    right: 0;
-    padding: 6px;
+hr {
+    border: none;
+    border-top: 1px solid #333;
+    width: 50%;
+    margin: 48px auto;
+}
 
-    background: #111;
-    color: #666;
+.container {
+    margin: 48px auto;
+    width: 640px;
+}
+
+.campaign {
+    width: 640px;
+
+    border-radius: 2px;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    margin: 10px 0 0;
+    padding: 12px;
+    width: 640px;
+
+    background: #f473b2;
+    border: 1px solid #f473b2;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Gotham SSm A', 'Gotham SSm B';
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: all 250ms ease; }
+.button:hover {
+    background: #fff;
+    color: #f473b2; }
+
+.faq {
+    font-family: 'Whitney SSm A', 'Whitney SSm B';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.faq dt {
+    margin-top: 24px;
     font-weight: bold;
+}
+.faq dd { color: #ccc; }
+
+.footer {
+    font-family: 'Whitney SSm A', 'Whitney SSm B';
+    font-style: normal;
     font-size: 13px;
-    line-height: 1.2;
     text-align: center;
 }
 
