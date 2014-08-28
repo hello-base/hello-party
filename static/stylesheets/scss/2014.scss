@@ -1,260 +1,239 @@
 * {
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 html, body {
-    height: 100%;
-    -webkit-font-smoothing: antialiased;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
 }
 body {
-    background: #101010;
-    color: #fff;
+  background: #101010;
+  color: #fff;
 
-    font-family: 'Whitney SSm A', 'Whitney SSm B';
-    font-style: normal;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
+  font-family: 'Whitney SSm A', 'Whitney SSm B';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 a {
-    color: #f473b2;
-    text-decoration: none; }
+  color: #f473b2;
+  text-decoration: none; }
 p {
-    margin-bottom: 18px;
+  margin-bottom: 18px;
 
 }
 strong { font-weight: 600; }
 
 .footer {
-    font-style: normal;
-    font-size: 13px;
-    text-align: center;
+  font-style: normal;
+  font-size: 13px;
+  text-align: center;
 
-    p { margin-bottom: 48px; }
+  p { margin-bottom: 48px; }
 }
 
 .logomark {
-    overflow: hidden;
-    width: 300px; height: 63px;
+  overflow: hidden;
+  width: 300px; height: 63px;
 
-    background-image: url('../images/2014_logo.svg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    text-indent: 100%;
-    white-space: nowrap;
+  background-image: url('../images/2014_logo.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-indent: 100%;
+  white-space: nowrap;
 }
 
 h2 {
-    font-family: 'Gotham SSm A', 'Gotham SSm B';
-    font-weight: 800;
-    text-transform: uppercase;
-    font-size: 24px;
-    margin-bottom: 24px;
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 24px;
 }
 
 hr {
-    border: none;
-    border-top: 1px solid #333;
-    width: 50%;
-    margin: 48px auto;
+  border: none;
+  border-top: 1px solid #333;
+  width: 50%;
+  margin: 48px auto;
 }
 
 .container {
-    margin: 0px auto;
-    padding: 24px 0;
-    width: 720px;
+  margin: 0px auto;
+  padding: 24px 0;
+  width: 720px;
 }
 .section {
-    align-items: flex-start;
-    flex-direction: column;
-    display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  display: flex;
 }
 
 .campaign {
-    border-radius: 2px;
-    text-align: center;
+  border-radius: 2px;
+  text-align: center;
 }
 
 .callout {
-    padding: 24px 24px 6px;
+  padding: 24px 24px 6px;
 
-    background-color: #fff;
-    border-top: 3px solid #f473b2;
-    color: #888;
+  background-color: #fff;
+  border-top: 3px solid #f473b2;
+  color: #888;
 
-    h2 {
-        color: #333;
-        text-shadow: 0 1px 0 #ddd;
-    }
-    strong {
-        color: #777;
-    }
+  h2 {
+    color: #333;
+    text-shadow: 0 1px 0 #ddd;
+  }
+  strong {
+    color: #777;
+  }
 }
 
 
 
 .details {
-    flex: 1;
-    padding: 24px 24px 6px;
+  flex: 1;
+  padding: 24px 24px 6px;
 }
 
 .header {
-    padding-top: 24px;
-    position: relative;
-    overflow: hidden;
+  padding-top: 24px;
+  position: relative;
+  overflow: hidden;
 
-    .container {
-        height: 680px;
-        padding-top: 6px;
+  .container {
+    height: 680px;
+    padding-top: 6px;
 
-        background-image: url('../images/2014_timessquare.svg');
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
-    &:before {
-        display: block;
-        position: absolute; top: -94px; left: -50%;
-        width: 200%; height: 700px;
-        transform: rotateZ(6.8deg);
-        z-index: -1;
+    background-image: url('../images/2014_timessquare.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  &:before {
+    display: block;
+    position: absolute; top: -94px; left: -50%;
+    width: 200%; height: 700px;
+    transform: rotateZ(6.8deg);
+    z-index: -1;
 
-        background: #1a1a1a;
-        content: '';
-    }
-    &:after {
-        display: block;
-        position: absolute; top: -204px; left: -50%;
-        width: 200%; height: 530px;
-        transform: rotateZ(6.8deg);
-        z-index: -1;
+    background: #1a1a1a;
+    content: '';
+  }
+  &:after {
+    display: block;
+    position: absolute; top: -204px; left: -50%;
+    width: 200%; height: 530px;
+    transform: rotateZ(6.8deg);
+    z-index: -1;
 
-        background: #2a2a2a;
-        content: '';
-    }
+    background: #2a2a2a;
+    content: '';
+  }
 }
 .subheader {
-    margin-top: -100px;
+  margin-top: -100px;
 
-    .tagline {
-        margin-bottom: 4px;
-        padding-top: 4px;
+  .tagline {
+    margin-bottom: 4px;
+    padding-top: 4px;
 
-        color: #999;
-        font-size: 14px;
-        font-weight: bold;
-    }
+    color: #999;
+    font-size: 14px;
+    font-weight: bold;
+  }
 }
 .calls-to-action {
-    float: right;
-    width: 200px;
-    line-height: 18px;
-    text-align: center;
+  float: right;
+  width: 200px;
+  line-height: 18px;
+  text-align: center;
 }
 .action {
-    font-size: 11px;
-    margin-bottom: 12px;
+  font-size: 11px;
+  margin-bottom: 12px;
 }
 .button {
-    display: block;
-    padding: 6px 12px;
-    margin-bottom: 2px;
+  display: block;
+  padding: 6px 12px;
+  margin-bottom: 2px;
 
-    background: #f473b2;
-    border-radius: 4px;
-    color: #fff;
-    font-family: 'Gotham SSm A', 'Gotham SSm B';
-    font-weight: 800;
-    font-size: 12px;
-    text-transform: uppercase;
-    transition: all 250ms ease;
+  background: #f473b2;
+  border-radius: 4px;
+  color: #fff;
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+  font-weight: 800;
+  font-size: 12px;
+  text-transform: uppercase;
+  transition: all 250ms ease;
 
-    &:hover:not(.disabled) {
-        background: #fff;
-        color: #f473b2; }
-    &.disabled {
-        background-color: #444;
-        opacity: 0.6; }
+  &:hover:not(.disabled) {
+    background: #fff;
+    color: #f473b2; }
+  &.disabled {
+    background-color: #444;
+    opacity: 0.6; }
 }
 
 
 .faq {}
 .faq-list {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 900px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 900px;
 
-    .faq-item {
-        width: 50%;
-        padding: 0 12px;
-        margin: 0 -12px;
+  .faq-item {
+    width: 50%;
+    padding: 0 12px;
+    margin: 0 -12px;
 
-        p {
-            margin-bottom: 18px;
-            color: #ccc;
-        }
+    p {
+      margin-bottom: 18px;
+      color: #ccc;
     }
+  }
 }
 .faq h3 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
-    body { background-size: 100%; }
+  body { background-size: 100%; }
 }
 
+.section {
+  position: relative;
+  z-index: 5;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 100%; height: 48px;
+    z-index: -1;
+
+    background-color: #101010;
+  }
+  &:after {
+    content: '';
+    position: absolute; bottom: 0;
+    width: 100%; height: 48px;
+    z-index: -1;
+
+    background-color: #101010;
+  }
+}
 
 .masthead {
-    position: relative;
-    z-index: 5;
-
-    background: #555;
-
-    &:before {
-        content: '';
-        position: absolute;
-        width: 100%; height: 48px;
-        z-index: -1;
-
-        background-color: #101010;
-    }
-    &:after {
-        content: '';
-        position: absolute; bottom: 0;
-        width: 100%; height: 48px;
-        z-index: -1;
-
-        background-color: #101010;
-    }
+  background: #555;
 }
 .venue {
-    position: relative;
-    z-index: 5;
+  position: relative;
+  z-index: 5;
 
-    background: url('http://wichcraft.com/wp-content/uploads/2013/10/TimesCenter-Main-Stage-1800x600.jpg');
-    background-position: center center;
-    background-size: 100%;
-    // filter: grayscale(100%);
-
-    &:before {
-        content: '';
-        position: absolute;
-        width: 100%; height: 48px;
-        z-index: -1;
-
-        background-color: #101010;
-    }
-    &:after {
-        content: '';
-        position: absolute; bottom: 0;
-        width: 100%; height: 48px;
-        z-index: -1;
-
-        background-color: #101010;
-    }
-
+  background: url('http://wichcraft.com/wp-content/uploads/2013/10/TimesCenter-Main-Stage-1800x600.jpg');
+  background-position: center center;
+  background-size: 100%;
+  // filter: grayscale(100%);
 }
-.games {
-    background: #ccc;
-}
-
