@@ -1,0 +1,212 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased; }
+
+body {
+  background: #101010;
+  color: #fff;
+  font-family: 'Whitney SSm A', 'Whitney SSm B';
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px; }
+
+a {
+  color: #f473b2;
+  text-decoration: none; }
+
+p {
+  margin-bottom: 18px; }
+
+strong {
+  font-weight: 600; }
+
+.footer {
+  font-style: normal;
+  font-size: 13px;
+  text-align: center; }
+
+.logomark {
+  overflow: hidden;
+  width: 300px;
+  height: 63px;
+  background-image: url("../images/2014_logo.svg");
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 100%;
+          background-size: 100%;
+  text-indent: 100%;
+  white-space: nowrap; }
+
+h2 {
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 18px; }
+
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  width: 50%;
+  margin: 48px auto; }
+
+.container {
+  margin: 0px auto;
+  padding: 24px 0;
+  width: 720px; }
+
+.section {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.campaign {
+  border-radius: 2px;
+  text-align: center; }
+
+.callout {
+  padding: 24px 24px 6px;
+  background-color: #fff;
+  border-top: 3px solid #f473b2;
+  color: #888; }
+  .callout h2 {
+    color: #333;
+    text-shadow: 0 1px 0 #ddd; }
+  .callout strong {
+    color: #777; }
+
+.details {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 24px 24px 6px; }
+
+.header {
+  padding-top: 24px;
+  position: relative;
+  overflow: hidden; }
+  .header .container {
+    height: 680px;
+    padding-top: 6px;
+    background-image: url("../images/2014_timessquare.svg");
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+            background-size: 100%; }
+  .header:before {
+    display: block;
+    position: absolute;
+    top: -94px;
+    left: -50%;
+    width: 200%;
+    height: 700px;
+    -webkit-transform: rotateZ(6.8deg);
+            transform: rotateZ(6.8deg);
+    z-index: -1;
+    background: #1a1a1a;
+    content: ''; }
+  .header:after {
+    display: block;
+    position: absolute;
+    top: -204px;
+    left: -50%;
+    width: 200%;
+    height: 530px;
+    -webkit-transform: rotateZ(6.8deg);
+            transform: rotateZ(6.8deg);
+    z-index: -1;
+    background: #2a2a2a;
+    content: ''; }
+
+.subheader {
+  margin-top: -100px; }
+  .subheader .tagline {
+    margin-bottom: 4px;
+    padding-top: 4px;
+    color: #999;
+    font-size: 14px;
+    font-weight: bold; }
+
+.calls-to-action {
+  float: right;
+  width: 200px;
+  text-align: center; }
+
+.action {
+  font-size: 11px;
+  margin-bottom: 12px; }
+
+.button {
+  display: block;
+  padding: 6px 12px;
+  margin-bottom: 2px;
+  background: #f473b2;
+  border-radius: 4px;
+  color: #fff;
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+  font-weight: 800;
+  font-size: 12px;
+  text-transform: uppercase;
+  -webkit-transition: all 250ms ease;
+          transition: all 250ms ease; }
+  .button:hover:not(.disabled) {
+    background: #fff;
+    color: #f473b2; }
+  .button.disabled {
+    background-color: #444;
+    opacity: 0.6; }
+
+.faq-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  height: 680px; }
+  .faq-list .faq-item {
+    width: 50%;
+    padding: 0 12px;
+    margin: 0 -12px; }
+    .faq-list .faq-item p {
+      margin-bottom: 18px;
+      color: #ccc; }
+
+.faq h3 {
+  font-weight: bold; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  body {
+    -webkit-background-size: 100% 100%;
+            background-size: 100%; } }
+.masthead {
+  background: #555; }
+
+.venue {
+  background: #333; }
+
+.games {
+  background: #ccc; }
+
+/*# sourceMappingURL=2014.css.map */
