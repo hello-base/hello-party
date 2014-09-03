@@ -602,6 +602,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/static\/images\/2014_bkg_indiegogo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 179177,
+		"inputAbbreviatedPath": "\/static\/images\/2014_bkg_indiegogo.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/2014_bkg_indiegogo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/2014_bkg_party.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 408066,
+		"inputAbbreviatedPath": "\/static\/images\/2014_bkg_party.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/2014_bkg_party.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/2014_bkg_timescenter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 269163,
+		"inputAbbreviatedPath": "\/static\/images\/2014_bkg_timescenter.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/2014_bkg_timescenter.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/static\/images\/2014_teaser.png": {
 		"fileType": 32768,
 		"ignore": 0,

@@ -206,6 +206,8 @@ hr {
 .section {
   position: relative;
   z-index: 5; }
+  .section img {
+    width: 100%; }
   .section:before {
     content: '';
     position: absolute;
@@ -222,13 +224,45 @@ hr {
     z-index: -1;
     background-color: #101010; }
 
-.masthead {
-  background: #555; }
-
-.venue {
+.embed-container {
   position: relative;
-  z-index: 5;
-  background: url("http://wichcraft.com/wp-content/uploads/2013/10/TimesCenter-Main-Stage-1800x600.jpg");
+  padding-bottom: 56.25%;
+  /* 16/9 ratio */
+  padding-top: 30px;
+  /* IE6 workaround*/
+  height: 0;
+  overflow: hidden; }
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.section.indiegogo {
+  background: url("../images/2014_bkg_indiegogo.jpg");
   background-position: center center;
   -webkit-background-size: 100% 100%;
-          background-size: 100%; }
+          background-size: 100%;
+  background-repeat: no-repeat; }
+  .section.indiegogo .callout {
+    padding-bottom: 24px; }
+
+.masthead {
+  background-position: center center;
+  -webkit-background-size: 100% 100%;
+          background-size: 100%;
+  background-repeat: no-repeat; }
+
+.footer {
+  position: relative; }
+
+.footer-image {
+  overflow: hidden;
+  position: absolute;
+  top: -75px;
+  width: 100%;
+  height: 400px; }
