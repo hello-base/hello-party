@@ -47,20 +47,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/2014\/index-2.html": {
+	"\/2014\/index-teaser.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2014\/index-2.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/2014\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2014\/index.html",
+		"inputAbbreviatedPath": "\/2014\/index-teaser.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -598,6 +589,17 @@
 		"initialSize": 7552,
 		"inputAbbreviatedPath": "\/static\/images\/2012_logo.png",
 		"outputAbbreviatedPath": "\/static\/images\/2012_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/2014_bkg_cheki.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.19932e+06,
+		"inputAbbreviatedPath": "\/static\/images\/2014_bkg_cheki.png",
+		"outputAbbreviatedPath": "\/static\/images\/2014_bkg_cheki.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
