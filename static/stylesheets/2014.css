@@ -271,14 +271,11 @@ hr {
   height: 400px;
   opacity: 0.3; }
 
-.games .callout {
-  padding-bottom: 24px; }
-
 ul li ul {
   margin-left: 24px; }
 
 .game-list {
-  padding: 0 24px; }
+  padding: 24px; }
 
 .sub-game-list {
   padding-right: 48px; }
