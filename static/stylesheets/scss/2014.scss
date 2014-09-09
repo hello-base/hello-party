@@ -279,3 +279,16 @@ ul li ul {
   list-style: disc;
   margin-bottom: 6px;
 }
+
+.internet-fame {
+  li {
+    display: inline-block;
+
+    &:after {
+      color: #aaa;
+      content: ' \00B7 '
+    }
+    &:last-child:after { content: '' }
+  }
+
+}

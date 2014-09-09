@@ -56,6 +56,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/2014\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/2014\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -641,7 +650,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 30876,
+		"initialSize": 37034,
 		"inputAbbreviatedPath": "\/static\/images\/2014_teaser.png",
 		"outputAbbreviatedPath": "\/static\/images\/2014_teaser.png",
 		"outputPathIsOutsideProject": 0,

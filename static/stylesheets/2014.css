@@ -283,3 +283,11 @@ ul li ul {
 .game {
   list-style: disc;
   margin-bottom: 6px; }
+
+.internet-fame li {
+  display: inline-block; }
+  .internet-fame li:after {
+    color: #aaa;
+    content: " \00B7 "; }
+  .internet-fame li:last-child:after {
+    content: ""; }
